@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Resursbank-slider{
+    margin: 0 auto;
+    left: 0;
+}
+/*text*/
+.head{
+    color: orange;
+    font-size: 21px;
+    font-family: ResursSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 0 0 100px;
+}
+.head-b{
+    color: #211551;
+    font-size: 21px;
+    font-family: ResursSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.värde{
+    font-size: 16px;
+    color: snow;
+    margin-top: 24px;
+    font-family: ResursSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    left: unset !important;
+    transform: unset !important;
+}
+
+/*input*/
+
+#år-längd, #värde{
+background-color: transparent;
+border: none;
+color: orange;
+font-weight: bold;
+}
+.w-100{
+    margin: 10px 0 0 0;
+}
+/*sliders*/
+.slider{
+    max-width: 600px;
+    width: 100%;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin: -12px 0 0 0;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: darkorange;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 4px;
+    border-radius: 50%;
+    
+}
+.slider::-moz-range-thumb {
+    margin: -12px 0 0 0;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: darkorange;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 4px;
+}
