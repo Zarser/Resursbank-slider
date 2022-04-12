@@ -22,7 +22,7 @@
                     <input type="none" id="värde" class="input längd" value="0">
                 </p>
                 </div>
-                <input type="range" min="10000" max="500000" value="0" step="1000" id="slider-belopp" class="slider"
+                <input type="range" min="10000" max="500000" value="10000" step="1000" id="slider-belopp" class="slider"
                     placeholder="10000">
                     <div class="container-sm">
                 <span class="värde left">10 000kr</span> - <span class="värde right">500 000kr</span>
@@ -32,11 +32,11 @@
             <div class="col">
                 <div class="container-sm">
                 <p>
-                <span class="head">Återbetalningstid</span><span id="år"></span>
+                <span class="head">Återbetalningstid månader</span><span id="år"></span>
                     <input type="none" id="år-längd" class="input år" value="0">
                 </p>
                 </div>
-                <input type="range" min="2" max="15" value="0" id="slider-år" class="slider" placeholder="2">
+                <input type="range" min="24" max="180" step="12" value="2" id="slider-år" class="slider" placeholder="2">
                 <div class="container-sm">
                 <span class="värde left">2år</span> - <span class="värde right">15år</span>
             </div>
