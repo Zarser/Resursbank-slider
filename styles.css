@@ -8,11 +8,9 @@ body{
     left: 0;
 }
 /*text*/
-.head{
+#head{
     color: orange;
-    font-size: 21px;
-    font-family: ResursSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 0 0 0 100px;
+    font-weight: bold;
 }
 .head-b{
     color: #211551;
@@ -35,6 +33,7 @@ background-color: transparent;
 border: none;
 color: orange;
 font-weight: bold;
+text-align: center;
 }
 .w-100{
     margin: 10px 0 0 0;
