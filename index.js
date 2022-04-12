@@ -26,7 +26,7 @@ function calc() {
 
 
     if (belopp > 0 & år > 0);
-    document.getElementById("månads-kostnad").value = Math.round(((belopp)*(1+0.00665)^år)/((1+0.00665)^år-1)+19); 
+    document.getElementById("månads-kostnad").value = Math.round(((((belopp)*(0.0665))*år)+(belopp))/(år*12)+19); 
 }
 
 document.getElementById('slider-belopp').onchange = function () {
